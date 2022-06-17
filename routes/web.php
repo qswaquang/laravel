@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +20,12 @@ Route::get('/dashboard', function(){
 });
 
 Route::prefix('/admin')->name("admin.")->group(function() {
-    Route::resource('/categories', CategoryController::class);
+    Route::resource('/categories', CategoryController::class)->except('create');
+    Route::prefix('/categories')->name('categories.')->group(function () {
+        Route::get('{id}/create', [CategoryController::class , 'create'])->name('create');
+
+    });
+
+    Route::resource('products', ProductController::class);
+    
 });

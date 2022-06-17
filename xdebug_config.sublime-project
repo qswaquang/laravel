@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
-			"path": "."
-		}
+			/*"follow_symlinks": true,*/
+			"path": ".",
+		},
 	],
 	"settings": {
         "xdebug": {
              "url": "http://127.0.0.1:8000/admin/categories",
-        }
-    }
+        },
+    },
 }

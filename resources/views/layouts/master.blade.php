@@ -37,6 +37,16 @@
 		@include('partitals.footer')
 	</div>
 	<script src="{{ asset('js/app.js') }}"></script>
+	<script type="text/javascript">
+		function titleToSlug(str) {
+      return str.normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/đ/g, 'd').replace(/Đ/g, 'D')
+        .toLowerCase()
+        .replace(/ /g, '-')
+        .replace(/[^\w-]+/g, '');
+    }
+	</script>
 	@yield('js-script')
 </body>
 

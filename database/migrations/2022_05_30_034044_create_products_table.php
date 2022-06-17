@@ -20,8 +20,10 @@ return new class extends Migration
             $table->integer('stock')->default(0);
             $table->double('old_price')->default(0);
             $table->double('price')->default(0);
-            $table->bigInteger('category_id');
+            $table->unsignedBigInteger('category_id');
             $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 

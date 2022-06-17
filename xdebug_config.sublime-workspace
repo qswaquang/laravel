@@ -4,6 +4,146 @@
 		"selected_items":
 		[
 			[
+				"pr",
+				"product"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"ch",
+				"children"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"chil",
+				"child_categories_combobox.blade.php"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"p",
+				"Product"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"bg",
+				"bg-gray-200"
+			],
+			[
+				"ju",
+				"justify-end"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"regis",
+				"register"
+			],
+			[
+				"Auth",
+				"AuthRoute.js"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"exp",
+				"express"
+			],
+			[
+				"bo",
+				"boolean"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"user",
+				"userRoute"
+			],
+			[
+				"in",
+				"inc"
+			],
+			[
+				"w",
+				"with"
+			],
+			[
+				"Pro",
+				"ProductController"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"po",
+				"cursor-pointer"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"met",
+				"method"
+			],
+			[
+				"if",
+				"if?"
+			],
+			[
+				"text",
+				"text-sm"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"w-",
+				"w-full"
+			],
+			[
+				"con",
+				"content-table-category.blade.php"
+			],
+			[
+				"par",
+				"partitals"
+			],
+			[
 				"catego",
 				"category_id"
 			],
@@ -20,10 +160,6 @@
 				"published"
 			],
 			[
-				"bo",
-				"bold"
-			],
-			[
 				"fon",
 				"font-weight"
 			],
@@ -36,24 +172,8 @@
 				"categories"
 			],
 			[
-				"ca",
-				"category"
-			],
-			[
-				"cate",
-				"category"
-			],
-			[
 				"whi",
 				"with"
-			],
-			[
-				"for",
-				"foreach"
-			],
-			[
-				"par",
-				"parent_id"
 			],
 			[
 				"text-gray",
@@ -62,10 +182,6 @@
 			[
 				"border",
 				"border-gray-300"
-			],
-			[
-				"text",
-				"text-blue-500"
 			],
 			[
 				"h",
@@ -144,10 +260,6 @@
 				"mt-4"
 			],
 			[
-				"p",
-				"Product"
-			],
-			[
 				"ti",
 				"time()"
 			],
@@ -182,14 +294,6 @@
 			[
 				"th",
 				"th"
-			],
-			[
-				"op",
-				"option"
-			],
-			[
-				"se",
-				"select"
 			],
 			[
 				"IN",
@@ -240,14 +344,6 @@
 				"delete"
 			],
 			[
-				"Pro",
-				"Product"
-			],
-			[
-				"pr",
-				"prices"
-			],
-			[
 				"im",
 				"images"
 			],
@@ -256,20 +352,12 @@
 				"onImageRemove"
 			],
 			[
-				"con",
-				"const"
-			],
-			[
 				"Dr",
 				"DropZone"
 			],
 			[
 				"fi",
 				"files"
-			],
-			[
-				"re",
-				"request"
 			],
 			[
 				"sty",
@@ -304,10 +392,6 @@
 				"const"
 			],
 			[
-				"if",
-				"ife"
-			],
-			[
 				"a",
 				"array"
 			],
@@ -318,14 +402,6 @@
 			[
 				"fo",
 				"formData"
-			],
-			[
-				"po",
-				"postImages"
-			],
-			[
-				"r",
-				"request"
 			],
 			[
 				"da",
@@ -372,16 +448,8 @@
 				"Category"
 			],
 			[
-				"ret",
-				"return"
-			],
-			[
 				"edi",
 				"editCategory"
-			],
-			[
-				"in",
-				"inertia"
 			],
 			[
 				"au",
@@ -444,322 +512,515 @@
 				"userRole"
 			],
 			[
-				"user",
-				"userPermissionRead"
-			],
-			[
 				"ro",
 				"rolePermissionRead"
-			],
-			[
-				"pe",
-				"permissionRead"
-			],
-			[
-				"meth",
-				"methods"
-			],
-			[
-				"he",
-				"header"
-			],
-			[
-				"Admin",
-				"AdminDashboardController"
-			],
-			[
-				"ex",
-				"exp"
-			],
-			[
-				"admin",
-				"admin-lte"
-			],
-			[
-				"Sc",
-				"Schema"
-			],
-			[
-				"up",
-				"update"
-			],
-			[
-				"cou",
-				"Country"
-			],
-			[
-				"Coun",
-				"CountryResource"
-			],
-			[
-				"mod",
-				"modify"
-			],
-			[
-				"Cou",
-				"CountryController"
-			],
-			[
-				"S",
-				"Schema"
-			],
-			[
-				"wor",
-				"working_dir"
-			],
-			[
-				"wo",
-				"working_dir"
-			],
-			[
-				"ac",
-				"action"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "resources/views/child_categories.blade.php",
+			"file": "app/Http/Controllers/ProductController.php",
 			"settings":
 			{
-				"buffer_size": 108,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/category-list.blade.php",
-			"settings":
-			{
-				"buffer_size": 2715,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "docker-compose.yml",
-			"settings":
-			{
-				"buffer_size": 1076,
+				"buffer_size": 1448,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					6,
+					3,
 					1,
 					"insert",
 					{
-						"characters": "\n"
+						"characters": "$pr"
 					},
-					"AgAAAKoDAAAAAAAAqwMAAAAAAAAAAAAAqwMAAAAAAACxAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqgMAAAAAAACqAwAAAAAAAAAAAAAAAPC/"
+					"AwAAALMEAAAAAAAAtAQAAAAAAAAAAAAAtAQAAAAAAAC1BAAAAAAAAAAAAAC1BAAAAAAAALYEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswQAAAAAAACzBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					7,
+					4,
 					1,
-					"paste",
+					"insert_dimensions",
 					null,
-					"AQAAALEDAAAAAAAADAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQMAAAAAAACxAwAAAAAAAAAAAAAAAPC/"
+					"AgAAALQEAAAAAAAAtAQAAAAAAAACAAAAcHK0BAAAAAAAALsEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgQAAAAAAAC2BAAAAAAAAAAAAAAAAPC/"
 				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAALEDAAAAAAAAsgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsQMAAAAAAACxAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAALIDAAAAAAAAswMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAsgMAAAAAAACyAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "xdeb"
-					},
-					"BQAAAMMDAAAAAAAAxAMAAAAAAAAAAAAAxAMAAAAAAADEAwAAAAAAABQAAABkb2NrZXItcGhwLXJhbS1saW1pdMQDAAAAAAAAxQMAAAAAAAAAAAAAxQMAAAAAAADGAwAAAAAAAAAAAADGAwAAAAAAAMcDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwwMAAAAAAADXAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": "ug"
-					},
-					"AgAAAMcDAAAAAAAAyAMAAAAAAAAAAAAAyAMAAAAAAADJAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAxwMAAAAAAADHAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "xdebug"
-					},
-					"BwAAAOgDAAAAAAAA6QMAAAAAAAAAAAAA6QMAAAAAAADpAwAAAAAAABQAAABkb2NrZXItcGhwLXJhbS1saW1pdOkDAAAAAAAA6gMAAAAAAAAAAAAA6gMAAAAAAADrAwAAAAAAAAAAAADrAwAAAAAAAOwDAAAAAAAAAAAAAOwDAAAAAAAA7QMAAAAAAAAAAAAA7QMAAAAAAADuAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/AMAAAAAAADoAwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "resources/views/partitals/content-table-category.blade.php",
-			"settings":
-			{
-				"buffer_size": 1352,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
 				[
 					5,
 					1,
 					"insert",
 					{
-						"characters": "{{{"
+						"characters": "->"
 					},
-					"AwAAAHQAAAAAAAAAdQAAAAAAAAAAAAAAdQAAAAAAAAB2AAAAAAAAAAAAAAB2AAAAAAAAAHcAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"left_delete",
-					null,
-					"AQAAAHYAAAAAAAAAdgAAAAAAAAABAAAAew",
-					"AQAAAAAAAAABAAAAdwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+					"AgAAALsEAAAAAAAAvAQAAAAAAAAAAAAAvAQAAAAAAAC9BAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuwQAAAAAAAC7BAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					7,
 					1,
-					"insert",
+					"insert_dimensions",
+					null,
+					"AQAAAL0EAAAAAAAAwwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvQQAAAAAAAC9BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert_snippet",
 					{
-						"characters": "}}"
+						"contents": "($0)"
 					},
-					"AgAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+					"AQAAAMMEAAAAAAAAxQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwQAAAAAAADDBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					9,
 					1,
 					"insert",
 					{
-						"characters": "child"
+						"characters": "$"
 					},
-					"BQAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB7AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+					"AQAAAMQEAAAAAAAAxQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAQAAAAAAADEBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "re"
+					},
+					"AgAAAMUEAAAAAAAAxgQAAAAAAAAAAAAAxgQAAAAAAADHBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQQAAAAAAADFBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAMUEAAAAAAAAxQQAAAAAAAACAAAAcmXFBAAAAAAAAMwEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxwQAAAAAAADHBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					12,
 					1,
 					"insert",
 					{
-						"characters": "$"
+						"characters": "->al"
 					},
-					"AQAAAHYAAAAAAAAAdwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+					"BAAAAMwEAAAAAAAAzQQAAAAAAAAAAAAAzQQAAAAAAADOBAAAAAAAAAAAAADOBAAAAAAAAM8EAAAAAAAAAAAAAM8EAAAAAAAA0AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAQAAAAAAADMBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAM4EAAAAAAAAzgQAAAAAAAACAAAAYWzOBAAAAAAAANEEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AQAAAAAAADQBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					14,
 					1,
-					"insert",
+					"insert_snippet",
 					{
-						"characters": "->pa"
+						"contents": "($0)"
 					},
-					"BAAAAHwAAAAAAAAAfQAAAAAAAAAAAAAAfQAAAAAAAAB+AAAAAAAAAAAAAAB+AAAAAAAAAH8AAAAAAAAAAAAAAH8AAAAAAAAAgAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "rent"
-					},
-					"BAAAAIAAAAAAAAAAgQAAAAAAAAAAAAAAgQAAAAAAAACCAAAAAAAAAAAAAACCAAAAAAAAAIMAAAAAAAAAAAAAAIMAAAAAAAAAhAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "_id"
-					},
-					"AwAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACGAAAAAAAAAAAAAACGAAAAAAAAAIcAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhAAAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
+					"AQAAANEEAAAAAAAA0wQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0QQAAAAAAADRBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					17,
 					1,
 					"insert",
 					{
-						"characters": " =="
+						"characters": ";"
 					},
-					"AwAAAIcAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACJAAAAAAAAAAAAAACJAAAAAAAAAIoAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+					"AQAAANQEAAAAAAAA1QQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AQAAAAAAADUBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					18,
 					1,
 					"insert",
 					{
-						"characters": " null"
+						"characters": "\nretu"
 					},
-					"BQAAAIoAAAAAAAAAiwAAAAAAAAAAAAAAiwAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAI0AAAAAAAAAAAAAAI0AAAAAAAAAjgAAAAAAAAAAAAAAjgAAAAAAAACPAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
+					"BgAAANUEAAAAAAAA1gQAAAAAAAAAAAAA1gQAAAAAAADeBAAAAAAAAAAAAADeBAAAAAAAAN8EAAAAAAAAAAAAAN8EAAAAAAAA4AQAAAAAAAAAAAAA4AQAAAAAAADhBAAAAAAAAAAAAADhBAAAAAAAAOIEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QQAAAAAAADVBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					19,
 					1,
-					"insert",
-					{
-						"characters": " ?"
-					},
-					"AgAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAjwAAAAAAAACPAAAAAAAAAAAAAAAAAPC/"
+					"insert_dimensions",
+					null,
+					"AgAAAN4EAAAAAAAA3gQAAAAAAAAEAAAAcmV0dd4EAAAAAAAA5AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gQAAAAAAADiBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					20,
 					1,
 					"insert",
 					{
-						"characters": " ;"
+						"characters": " re"
 					},
-					"AgAAAJEAAAAAAAAAkgAAAAAAAAAAAAAAkgAAAAAAAACTAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkQAAAAAAAACRAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAOQEAAAAAAAA5QQAAAAAAAAAAAAA5QQAAAAAAADmBAAAAAAAAAAAAADmBAAAAAAAAOcEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AQAAAAAAADkBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					21,
 					1,
-					"left_delete",
+					"insert_dimensions",
 					null,
-					"AQAAAJIAAAAAAAAAkgAAAAAAAAABAAAAOw",
-					"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+					"AgAAAOUEAAAAAAAA5QQAAAAAAAACAAAAcmXlBAAAAAAAAO0EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wQAAAAAAADnBAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					22,
 					1,
 					"insert_snippet",
 					{
+						"contents": "($0)"
+					},
+					"AQAAAO0EAAAAAAAA7wQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QQAAAAAAADtBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "->"
+					},
+					"AgAAAO8EAAAAAAAA8AQAAAAAAAAAAAAA8AQAAAAAAADxBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7wQAAAAAAADvBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert_dimensions",
+					null,
+					"AQAAAPEEAAAAAAAA9gQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8QQAAAAAAADxBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAPYEAAAAAAAA+AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9gQAAAAAAAD2BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert_snippet",
+					{
 						"contents": "'$0'"
 					},
-					"AQAAAJIAAAAAAAAAlAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkgAAAAAAAACSAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAPcEAAAAAAAA+QQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9wQAAAAAAAD3BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "admin."
+					},
+					"BgAAAPgEAAAAAAAA+QQAAAAAAAAAAAAA+QQAAAAAAAD6BAAAAAAAAAAAAAD6BAAAAAAAAPsEAAAAAAAAAAAAAPsEAAAAAAAA/AQAAAAAAAAAAAAA/AQAAAAAAAD9BAAAAAAAAAAAAAD9BAAAAAAAAP4EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+AQAAAAAAAD4BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert_dimensions",
+					null,
+					"AQAAAP4EAAAAAAAABgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gQAAAAAAAD+BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAAYFAAAAAAAABwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgUAAAAAAAAGBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert_dimensions",
+					null,
+					"AQAAAAcFAAAAAAAADAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABwUAAAAAAAAHBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAA4FAAAAAAAADwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADgUAAAAAAAAOBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"left_delete",
+					null,
+					"AQAAALQBAAAAAAAAtAEAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAtQEAAAAAAAC1AQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "resources/views/layouts/master.blade.php",
+			"redo_stack":
+			[
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "o"
+					},
+					"AQAAAAQAAAAAAAAABAAAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "oooo"
+					},
+					"BAAAAAMAAAAAAAAAAwAAAAAAAAABAAAAbwIAAAAAAAAAAgAAAAAAAAABAAAAbwEAAAAAAAAAAQAAAAAAAAABAAAAbwAAAAAAAAAAAAAAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/js/lib.js",
+			"settings":
+			{
+				"buffer_size": 165,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "removeAccents.js"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "re"
+					},
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "move"
+					},
+					"BAAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "E"
+					},
+					"AQAAAAYAAAAAAAAABwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANAAAAAAAAAAcAAAByZW1vdmVF",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": ".js"
+					},
+					"AwAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAABAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					19,
+					"left_delete",
+					null,
+					"EAAAAA8AAAAAAAAADwAAAAAAAAABAAAAcw4AAAAAAAAADgAAAAAAAAABAAAAag0AAAAAAAAADQAAAAAAAAABAAAALgwAAAAAAAAADAAAAAAAAAABAAAAcwsAAAAAAAAACwAAAAAAAAABAAAAdAoAAAAAAAAACgAAAAAAAAABAAAAbgkAAAAAAAAACQAAAAAAAAABAAAAZQgAAAAAAAAACAAAAAAAAAABAAAAYwcAAAAAAAAABwAAAAAAAAABAAAAYwYAAAAAAAAABgAAAAAAAAABAAAAQQUAAAAAAAAABQAAAAAAAAABAAAAZQQAAAAAAAAABAAAAAAAAAABAAAAdgMAAAAAAAAAAwAAAAAAAAABAAAAbwIAAAAAAAAAAgAAAAAAAAABAAAAbQEAAAAAAAAAAQAAAAAAAAABAAAAZQAAAAAAAAAAAAAAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAyAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAJCggZG9jdW1lbnQgKS5yZWFkeShmdW5jdGlvbigpIHs",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKQAAAAAAAAApAAAAAAAAAAEAAAACn0pOw",
+					"AQAAAAAAAAABAAAAqAAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"unindent",
+					null,
+					"BQAAAAEAAAAAAAAAAQAAAAAAAAABAAAACR8AAAAAAAAAHwAAAAAAAAABAAAACT0AAAAAAAAAPQAAAAAAAAABAAAACWoAAAAAAAAAagAAAAAAAAABAAAACZ4AAAAAAAAAngAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAAgAAAAAAAACkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "expo"
+					},
+					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "t"
+					},
+					"AQAAAAQAAAAAAAAABQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAQAAAAAAAAABAAAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "rt"
+					},
+					"AgAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "app/Http/Controllers/CategoryController.php",
+			"settings":
+			{
+				"buffer_size": 1860,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "resources/views/product-form.blade.php",
+			"settings":
+			{
+				"buffer_size": 2952,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					6,
+					1,
+					"paste",
+					null,
+					"AQAAAEkLAAAAAAAAegsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQsAAAAAAABJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoLAAAAAAAAWgsAAAAAAAAgAAAALnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCAnJyk",
+					"AQAAAAAAAAABAAAAegsAAAAAAABaCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"unindent",
+					null,
+					"AwAAAOcKAAAAAAAA5woAAAAAAAACAAAAICAQCwAAAAAAABALAAAAAAAAAgAAACAgawsAAAAAAABrCwAAAAAAAAIAAAAgIA",
+					"AQAAAAAAAAABAAAA7QoAAAAAAAB4CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEULAAAAAAAARQsAAAAAAAARAAAALm5vcm1hbGl6ZSgnTkZEJyk",
+					"AQAAAAAAAAABAAAARQsAAAAAAABWCwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					24,
@@ -768,74 +1029,800 @@
 					{
 						"characters": " "
 					},
-					"AQAAAJQAAAAAAAAAlQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAAJUAAAAAAAAAlgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAC0LAAAAAAAALgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQsAAAAAAAAtCwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					26,
 					1,
 					"insert",
 					{
-						"characters": " "
+						"characters": "remo"
 					},
-					"AQAAAJYAAAAAAAAAlwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAC0LAAAAAAAALgsAAAAAAAAAAAAALgsAAAAAAAAvCwAAAAAAAAAAAAAvCwAAAAAAADALAAAAAAAAAAAAADALAAAAAAAAMQsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQsAAAAAAAAtCwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					27,
-					1,
-					"insert",
-					{
-						"characters": "$"
-					},
-					"AQAAAJcAAAAAAAAAmAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					33,
-					1,
+					4,
 					"left_delete",
 					null,
-					"AQAAAJcAAAAAAAAAlwAAAAAAAAABAAAAJA",
-					"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+					"BAAAADALAAAAAAAAMAsAAAAAAAABAAAAby8LAAAAAAAALwsAAAAAAAABAAAAbS4LAAAAAAAALgsAAAAAAAABAAAAZS0LAAAAAAAALQsAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAMQsAAAAAAAAxCwAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					34,
+					28,
 					1,
 					"paste",
 					null,
-					"AQAAAJcAAAAAAAAAqAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAC0LAAAAAAAAOgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQsAAAAAAAAtCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAADoLAAAAAAAAPAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgsAAAAAAAA6CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"cut",
+					null,
+					"AQAAAD0LAAAAAAAAPQsAAAAAAAAYAAAAJCgnI25hbWVfcHJvZHVjdCcpLnZhbCgp",
+					"AQAAAAAAAAABAAAAPQsAAAAAAABVCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"paste",
+					null,
+					"AQAAADsLAAAAAAAAUwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwsAAAAAAAA7CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFQLAAAAAAAAVAsAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAVQsAAAAAAABVCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAOYKAAAAAAAA5woAAAAAAAAAAAAA5woAAAAAAADpCgAAAAAAAAAAAADpCgAAAAAAAOsKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5goAAAAAAADmCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"paste",
+					null,
+					"AQAAAOsKAAAAAAAA+AoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6woAAAAAAADrCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					12,
+					"left_delete",
+					null,
+					"DAAAAPcKAAAAAAAA9woAAAAAAAABAAAAc/YKAAAAAAAA9goAAAAAAAABAAAAdPUKAAAAAAAA9QoAAAAAAAABAAAAbvQKAAAAAAAA9AoAAAAAAAABAAAAZfMKAAAAAAAA8woAAAAAAAABAAAAY/IKAAAAAAAA8goAAAAAAAABAAAAY/EKAAAAAAAA8QoAAAAAAAABAAAAQfAKAAAAAAAA8AoAAAAAAAABAAAAZe8KAAAAAAAA7woAAAAAAAABAAAAdu4KAAAAAAAA7goAAAAAAAABAAAAb+0KAAAAAAAA7QoAAAAAAAABAAAAbewKAAAAAAAA7AoAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAA+AoAAAAAAAD4CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOsKAAAAAAAA6woAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAA7AoAAAAAAADsCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "impo"
+					},
+					"BAAAAOsKAAAAAAAA7AoAAAAAAAAAAAAA7AoAAAAAAADtCgAAAAAAAAAAAADtCgAAAAAAAO4KAAAAAAAAAAAAAO4KAAAAAAAA7woAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6woAAAAAAADrCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "rt"
+					},
+					"AgAAAO8KAAAAAAAA8AoAAAAAAAAAAAAA8AoAAAAAAADxCgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7woAAAAAAADvCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPEKAAAAAAAA8goAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8QoAAAAAAADxCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAPIKAAAAAAAA9AoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8goAAAAAAADyCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"paste",
+					null,
+					"AQAAAPMKAAAAAAAAAAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8woAAAAAAADzCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPMKAAAAAAAA9AoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8woAAAAAAADzCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAELAAAAAAAAAgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAQsAAAAAAAABCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": " from"
+					},
+					"BQAAAAMLAAAAAAAABAsAAAAAAAAAAAAABAsAAAAAAAAFCwAAAAAAAAAAAAAFCwAAAAAAAAYLAAAAAAAAAAAAAAYLAAAAAAAABwsAAAAAAAAAAAAABwsAAAAAAAAICwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwsAAAAAAAADCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAgLAAAAAAAACQsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAsAAAAAAAAICwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAAkLAAAAAAAACwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQsAAAAAAAAJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": "lip"
+					},
+					"AwAAAAoLAAAAAAAACwsAAAAAAAAAAAAACwsAAAAAAAAMCwAAAAAAAAAAAAAMCwAAAAAAAA0LAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgsAAAAAAAAKCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAwLAAAAAAAADAsAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAADQsAAAAAAAANCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"insert",
+					{
+						"characters": "b.j"
+					},
+					"AwAAAAwLAAAAAAAADQsAAAAAAAAAAAAADQsAAAAAAAAOCwAAAAAAAAAAAAAOCwAAAAAAAA8LAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADAsAAAAAAAAMCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					62,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAA8LAAAAAAAAEAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADwsAAAAAAAAPCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAABELAAAAAAAAEgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQsAAAAAAAARCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": "./"
+					},
+					"AgAAAAoLAAAAAAAACwsAAAAAAAAAAAAACwsAAAAAAAAMCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgsAAAAAAAAKCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": "requ"
+					},
+					"BQAAAAkLAAAAAAAACgsAAAAAAAAAAAAACgsAAAAAAAAKCwAAAAAAAAoAAAAnLi9saWIuanMnCgsAAAAAAAALCwAAAAAAAAAAAAALCwAAAAAAAAwLAAAAAAAAAAAAAAwLAAAAAAAADQsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwsAAAAAAAAJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					4,
+					"left_delete",
+					null,
+					"BAAAAAwLAAAAAAAADAsAAAAAAAABAAAAdQsLAAAAAAAACwsAAAAAAAABAAAAcQoLAAAAAAAACgsAAAAAAAABAAAAZQkLAAAAAAAACQsAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAADQsAAAAAAAANCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"insert",
+					{
+						"characters": "''"
+					},
+					"AgAAAAkLAAAAAAAACgsAAAAAAAAAAAAACgsAAAAAAAALCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQsAAAAAAAAJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"paste",
+					null,
+					"AQAAAAoLAAAAAAAAGAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgsAAAAAAAAKCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAsLAAAAAAAACwsAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAADAsAAAAAAAAMCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAAsLAAAAAAAADAsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACwsAAAAAAAALCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"left_delete",
+					null,
+					"AQAAAA4LAAAAAAAADgsAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAADwsAAAAAAAAPCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAA4LAAAAAAAADwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADgsAAAAAAAAOCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"left_delete",
+					null,
+					"AQAAABELAAAAAAAAEQsAAAAAAAABAAAAXA",
+					"AQAAAAAAAAABAAAAEgsAAAAAAAASCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAABELAAAAAAAAEgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEQsAAAAAAAARCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"insert",
+					{
+						"characters": "reu"
+					},
+					"BAAAAAkLAAAAAAAACgsAAAAAAAAAAAAACgsAAAAAAAAKCwAAAAAAABAAAAAnLi8uLi9qcy9saWIuanMnCgsAAAAAAAALCwAAAAAAAAAAAAALCwAAAAAAAAwLAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQsAAAAAAAAJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAsLAAAAAAAACwsAAAAAAAABAAAAdQ",
+					"AQAAAAAAAAABAAAADAsAAAAAAAAMCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "qu"
+					},
+					"AgAAAAsLAAAAAAAADAsAAAAAAAAAAAAADAsAAAAAAAANCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACwsAAAAAAAALCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					4,
+					"left_delete",
+					null,
+					"BAAAAAwLAAAAAAAADAsAAAAAAAABAAAAdQsLAAAAAAAACwsAAAAAAAABAAAAcQoLAAAAAAAACgsAAAAAAAABAAAAZQkLAAAAAAAACQsAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAADQsAAAAAAAANCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOYKAAAAAAAA5goAAAAAAAAkAAAACiAgICBpbXBvcnQgeyByZW1vdmVBY2NlbnRzIH0gZnJvbSA7",
+					"AQAAAAAAAAABAAAACgsAAAAAAADmCgAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "docker/config/xdebug.ini",
+			"file": "resources/js/app.js",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 108,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
+					3,
 					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
 					1,
 					"paste",
 					null,
-					"AQAAAAAAAAAAAAAAlQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAEUAAAAAAAAA4wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQAAAAAAAABFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AQAAAEQAAAAAAAAAZAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "})"
+					},
+					"AgAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAAGQAAAAAAAAAZQAAAAAAAAAAAAAAZQAAAAAAAABmAAAAAAAAAAAAAABlAAAAAAAAAGYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AgAAAGkAAAAAAAAAagAAAAAAAAAAAAAAZQAAAAAAAABlAAAAAAAAAAEAAAAJ",
+					"AQAAAAAAAAABAAAAaQAAAAAAAABpAAAAAAAAAAAAAAAAADlA"
+				],
+				[
+					20,
+					1,
+					"cut",
+					null,
+					"AQAAAGoAAAAAAAAAagAAAAAAAACgAAAAZnVuY3Rpb24gcmVtb3ZlQWNjZW50cyhzdHIpIHsKICByZXR1cm4gc3RyLm5vcm1hbGl6ZSgnTkZEJykKICAgICAgICAgICAgLnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCAnJykKICAgICAgICAgICAgLnJlcGxhY2UoL8SRL2csICdkJykucmVwbGFjZSgvxJAvZywgJ0QnKTsKfQ",
+					"AQAAAAAAAAABAAAAagAAAAAAAAAIAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"paste",
+					null,
+					"AQAAAGUAAAAAAAAAAwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQAAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"indent",
+					null,
+					"BQAAAGUAAAAAAAAAZgAAAAAAAAAAAAAAhAAAAAAAAACFAAAAAAAAAAAAAACjAAAAAAAAAKQAAAAAAAAAAAAAANEAAAAAAAAA0gAAAAAAAAAAAAAABgEAAAAAAAAHAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwEAAAAAAABlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "\nre"
+					},
+					"AwAAAEMAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABFAAAAAAAAAAAAAABFAAAAAAAAAEYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwAAAAAAAABDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAEQAAAAAAAAARAAAAAAAAAACAAAAcmVEAAAAAAAAAEsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAEsAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "lib"
+					},
+					"AwAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAABOAAAAAAAAAE8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "'"
+					},
+					"AQAAAE8AAAAAAAAAUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					4,
+					"left_delete",
+					null,
+					"BAAAAE8AAAAAAAAATwAAAAAAAAABAAAAJ04AAAAAAAAATgAAAAAAAAABAAAAYk0AAAAAAAAATQAAAAAAAAABAAAAaUwAAAAAAAAATAAAAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert_snippet",
+					{
+						"contents": "'$0'"
+					},
+					"AQAAAEwAAAAAAAAATgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "lib.js"
+					},
+					"BgAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAABPAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": "./"
+					},
+					"AgAAAE0AAAAAAAAATgAAAAAAAAAAAAAATgAAAAAAAABPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQAAAAAAAABNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"cut",
+					null,
+					"AQAAAFoAAAAAAAAAWgAAAAAAAADKAAAAJCggZG9jdW1lbnQgKS5yZWFkeShmdW5jdGlvbigpIHsKCWZ1bmN0aW9uIHJlbW92ZUFjY2VudHMoc3RyKSB7CgkgIHJldHVybiBzdHIubm9ybWFsaXplKCdORkQnKQoJICAgICAgICAgICAgLnJlcGxhY2UoL1tcdTAzMDAtXHUwMzZmXS9nLCAnJykKCSAgICAgICAgICAgIC5yZXBsYWNlKC/EkS9nLCAnZCcpLnJlcGxhY2UoL8SQL2csICdEJyk7Cgl9Cn0pOw",
+					"AQAAAAAAAAABAAAAWgAAAAAAAAAiAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					57,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFkAAAAAAAAAWQAAAAAAAAABAAAAClgAAAAAAAAAWAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEQAAAAAAAAARQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": "imposrt"
+					},
+					"BwAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEsAAAAAAAAATAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					4,
+					"left_delete",
+					null,
+					"BAAAAEsAAAAAAAAASwAAAAAAAAABAAAAIEoAAAAAAAAASgAAAAAAAAABAAAAdEkAAAAAAAAASQAAAAAAAAABAAAAckgAAAAAAAAASAAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": "rt"
+					},
+					"AgAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEQAAAAAAAAARAAAAAAAAAAHAAAAaW1wb3J0IA",
+					"AQAAAAAAAAABAAAASwAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					87,
+					1,
+					"insert",
+					{
+						"characters": "impose"
+					},
+					"BgAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					2,
+					"left_delete",
+					null,
+					"AgAAAEkAAAAAAAAASQAAAAAAAAABAAAAZUgAAAAAAAAASAAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "rt"
+					},
+					"AgAAAEgAAAAAAAAASQAAAAAAAAAAAAAASQAAAAAAAABKAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"insert",
+					{
+						"characters": " {"
+					},
+					"AgAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgAAAAAAAABKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"insert",
+					{
+						"characters": "}"
+					},
+					"AQAAAEwAAAAAAAAATQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"paste",
+					null,
+					"AQAAAEwAAAAAAAAAWQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					95,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFoAAAAAAAAAWwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"insert",
+					{
+						"characters": "fo"
+					},
+					"AgAAAFsAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABdAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					97,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFwAAAAAAAAAXAAAAAAAAAABAAAAbw",
+					"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"insert",
+					{
+						"characters": "rom"
+					},
+					"AwAAAFwAAAAAAAAAXQAAAAAAAAAAAAAAXQAAAAAAAABeAAAAAAAAAAAAAABeAAAAAAAAAF8AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					99,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAF8AAAAAAAAAYAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwAAAAAAAABfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGAAAAAAAAAAYAAAAAAAAAAIAAAAcmVxdWlyZSg",
+					"AQAAAAAAAAABAAAAYAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGoAAAAAAAAAagAAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGoAAAAAAAAAawAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAagAAAAAAAABqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGoAAAAAAAAAagAAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAAawAAAAAAAABrAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -904,6 +1891,38 @@
 		"selected_items":
 		[
 			[
+				"php",
+				"PHP: Generate Constructor for Class"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"constr",
+				"Snippet: function __construct"
+			],
+			[
+				"rout",
+				"Laravel Artisan 5: Route:List"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rou",
+				"Laravel Artisan 5: Route:List"
+			],
+			[
+				"ro",
+				"Laravel Artisan 5: Route:List"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
 				"mif",
 				"Laravel Artisan 5: Migrate:Fresh (Drop all tables and re-run all migrations)"
 			],
@@ -928,20 +1947,8 @@
 				"Laravel Artisan 5: Route:List"
 			],
 			[
-				"rout",
-				"Laravel Artisan 5: Route:List"
-			],
-			[
 				"makm",
 				"Laravel Artisan 5: Make:Model"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"ins",
@@ -957,10 +1964,6 @@
 			],
 			[
 				"routli",
-				"Laravel Artisan 5: Route:List"
-			],
-			[
-				"rou",
 				"Laravel Artisan 5: Route:List"
 			],
 			[
@@ -1060,10 +2063,6 @@
 				"Laravel Artisan 5: Config:Cache"
 			],
 			[
-				"ro",
-				"Laravel Artisan 5: Route:List"
-			],
-			[
 				"migfr",
 				"Laravel Artisan 5: Migrate:Fresh (Drop all tables and re-run all migrations)"
 			],
@@ -1122,10 +2121,6 @@
 			[
 				"addcha",
 				"Package Control: Add Channel"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"roll",
@@ -1432,6 +2427,30 @@
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"server-run\"})",
+			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"2\"})",
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"1\"})",
 			"window.run_command(\"toggle_terminus_panel\", {\"panel_name\": \"2\"})",
@@ -1467,29 +2486,97 @@
 	"expanded_folders":
 	[
 		"/E/Outside/SelfLearning/jewels-backend",
-		"/E/Outside/SelfLearning/jewels-backend/docker",
-		"/E/Outside/SelfLearning/jewels-backend/docker/config",
+		"/E/Outside/SelfLearning/jewels-backend/app",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http",
 		"/E/Outside/SelfLearning/jewels-backend/resources",
+		"/E/Outside/SelfLearning/jewels-backend/resources/js",
 		"/E/Outside/SelfLearning/jewels-backend/resources/views",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/components",
 		"/E/Outside/SelfLearning/jewels-backend/resources/views/layouts",
 		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals"
 	],
 	"file_history":
 	[
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/product-form.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/components/select.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Middleware/VerifyCsrfToken.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/components/primary-button.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/components/label.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/components/input.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/product-list.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/View/Components/PrimaryButton.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/View/Components/Input.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/child_categories_combobox.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Controllers/ProductController.php",
+		"/E/Outside/SelfLearning/jewels-backend/node_modules/postcss-import/lib/process-content.js",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/component/input/input.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/component/input/input.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Models/Product.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/category-form.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Controllers/CategoryController.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/category-list.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Models/Category.php",
+		"/E/Outside/SelfLearning/jewels-backend/node_modules/webpack/lib/logging/createConsoleLogger.js",
+		"/E/Outside/SelfLearning/jewels-backend/vendor/symfony/process/Exception/ProcessTimedOutException.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals/pagination.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Requests/UpdateProductRequest.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Requests/StoreProductRequest.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals/content-table-category.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals/footer.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/node_modules/color-convert/route.js",
+		"/E/Outside/SelfLearning/learn-nodejs/index.js",
+		"/E/Outside/SelfLearning/learn-nodejs/views/index.pug",
+		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Layouts/AppLayout.vue",
+		"/E/Outside/SelfLearning/learn-nodejs/views/layout.pug",
+		"/E/Outside/SelfLearning/learn-nodejs/controllers/UserController.js",
+		"/E/Outside/SelfLearning/learn-nodejs/controllers/AuthController.js",
+		"/E/Outside/SelfLearning/learn-nodejs/routes/AuthRoute.js",
+		"/E/Outside/SelfLearning/learn-nodejs/routes/UserRoute.js",
+		"/E/Outside/SelfLearning/learn-nodejs/models/User.js",
+		"/E/Outside/SelfLearning/learn-nodejs/.env",
+		"/E/Outside/SelfLearning/learn-nodejs/views/text.pug",
+		"/E/Outside/SelfLearning/learn-nodejs/resource/js/view/register.js",
+		"/E/Outside/SelfLearning/learn-nodejs/view/index.pug",
+		"/E/###/Sublime Text/Data/Packages/User/Nodejs/model.sublime-snippet",
+		"/E/###/Sublime Text/Data/Packages/User/Nodejs/express.sublime-snippet",
+		"/E/Outside/SelfLearning/learn-nodejs/models/User",
+		"/E/Outside/SelfLearning/learn-nodejs/models",
+		"/E/###/Sublime Text/Data/Packages/User/Nodejs/route.sublime-snippet",
+		"/E/###/Sublime Text/Data/Packages/User/Mongo/aggregate.sublime-snippet",
+		"/E/Outside/SelfLearning/learn-nodejs/node_modules/.env",
+		"/E/Outside/SelfLearning/learn-nodejs/package.json",
+		"/E/Outside/SelfLearning/learn-nodejs/controllers/AuthController",
+		"/E/Outside/SelfLearning/learn-nodejs/routes/AuthRoute",
+		"/E/Outside/SelfLearning/learn-nodejs/package-lock.json",
+		"/E/Outside/SelfLearning/learn-nodejs/models/Product.js",
+		"/E/Outside/SelfLearning/learn-nodejs/models/Cart.js",
+		"/E/Outside/SelfLearning/learn-nodejs/models/Order.js",
+		"/E/Outside/SelfLearning/learn-nodejs/routes/userRoute.js",
+		"/E/Outside/SelfLearning/learn-nodejs/src/app_config.js",
+		"/E/Outside/SelfLearning/learn-nodejs/userRoute",
+		"/E/Outside/SelfLearning/learn-nodejs/routes/user.js",
+		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/app/Http/Controllers/Admins/AdminProductController.php",
+		"/E/Outside/SelfLearning/jewels-backend/database/seeders/DatabaseSeeder.php",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals/sidebar.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/database/migrations/2022_05_30_034044_create_products_table.php",
+		"/E/Outside/SelfLearning/jewels-backend/routes/web.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Requests/UpdateCategoryRequest.php",
+		"/E/Outside/SelfLearning/jewels-backend/database/migrations/2022_05_27_084843_create_categories_table.php",
+		"/E/Outside/SelfLearning/jewels-backend/app/Http/Requests/StoreCategoryRequest.php",
+		"/E/Outside/SelfLearning/jewels-backend/config/database.php",
+		"/E/Outside/SelfLearning/jewels-backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/E/Outside/SelfLearning/jewels-backend/routes/api.php",
+		"/E/Outside/SelfLearning/jewels-backend/docker/config/xdebug.ini",
+		"/E/Outside/SelfLearning/jewels-backend/docker/config/docker-php-ram-limit.ini",
+		"/E/###/Sublime Text/Data/Packages/User/Xdebug.sublime-settings",
+		"/E/Outside/SelfLearning/jewels-backend/resources/views/child_categories.blade.php",
+		"/E/Outside/SelfLearning/jewels-backend/docker-compose.yml",
+		"/E/Outside/SelfLearning/jewels-backend/xdebug_config.sublime-project",
 		"/E/Outside/SelfLearning/jewels-backend/database/seeders/CategorySeeder.php",
 		"/E/Outside/SelfLearning/jewels-backend/database/factories/CategoryFactory.php",
-		"/E/Outside/SelfLearning/jewels-backend/resources/views/category-list.blade.php",
-		"/E/Outside/SelfLearning/jewels-backend/resources/views/child_categories.blade.php",
-		"/E/Outside/SelfLearning/jewels-backend/resources/views/partitals/content-table-category.blade.php",
-		"/E/Outside/SelfLearning/jewels-backend/database/migrations/2022_05_30_034044_create_products_table.php",
 		"/E/Outside/SelfLearning/jewels-backend/tailwind.config.js",
 		"/E/Outside/SelfLearning/jewels-backend/database/seeders/ProductSeeder.php",
 		"/E/Outside/SelfLearning/jewels-backend/database/factories/ProductFactory.php",
-		"/E/Outside/SelfLearning/jewels-backend/app/Models/Category.php",
-		"/E/Outside/SelfLearning/jewels-backend/app/Models/Product.php",
-		"/E/Outside/SelfLearning/jewels-backend/database/seeders/DatabaseSeeder.php",
-		"/E/###/Sublime Text/Data/Packages/User/Xdebug.sublime-settings",
-		"/E/Outside/SelfLearning/jewels-backend/docker/config/docker-php-ram-limit.ini",
 		"/E/Outside/SelfLearning/travel-backend/app/Http/Controllers/CategoryController.php",
 		"/E/Outside/SelfLearning/travel-backend/docker/config/docker-php-ram-limit.ini",
 		"/E/Outside/SelfLearning/travel-backend/docker/Dockerfile",
@@ -1537,73 +2624,7 @@
 		"/E/Outside/SelfLearning/TestHosting/docker/Dockerfile",
 		"/E/Outside/SelfLearning/TestHosting/.env",
 		"/E/Outside/SelfLearning/AdminFruit/public/index.php",
-		"/E/Outside/SelfLearning/TestHosting/docker/config/default.conf",
-		"/E/Outside/SelfLearning/TestHosting/index.html",
-		"/E/Outside/SelfLearning/AdminFruit/docker/logs/nginx/error.log",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Pages/Admin/Products.vue",
-		"/E/Outside/SelfLearning/AdminFruit/docker/nginx.Dockerfile",
-		"/E/Temp/New folder/Test_SSKDT/SSKDT_App/build.gradle",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Partial/Pagination.vue",
-		"/E/Outside/SelfLearning/AdminFruit/database/seeders/CategorySeeder.php",
-		"/E/Outside/SelfLearning/AdminFruit/routes/web.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Components/Pagination.vue",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/app/Http/Controllers/Admins/AdminProductController.php",
-		"/E/Outside/SelfLearning/AdminFruit/app/Models/Category.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/seeders/DatabaseSeeder.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/factories/ProductFactory.php",
-		"/E/Temp/AdminLTE-3.2.0/pages/UI/sliders.html",
-		"/E/Temp/AdminLTE-3.2.0/pages/tables/data.html",
-		"/E/Outside/SelfLearning/AdminFruit/database/factories/CategoryFactory.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/seeders/ProductSeeder.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/database/seeders/DatabaseSeeder.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/database/factories/ProductFactory.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/database/factories/CategoryFactory.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/database/seeders/ProductSeeder.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/database/seeders/CategorySeeder.php",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Partial/Sidebar.vue",
-		"/E/Outside/SelfLearning/AdminFruit/app/Models/Image.php",
-		"/E/Outside/SelfLearning/AdminFruit/app/Models/Product.php",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Pages/Dashboard.vue",
-		"/E/Temp/AdminLTE-3.2.0/pages/layout/collapsed-sidebar.html",
-		"/E/Temp/AdminLTE-3.2.0/pages/search/enhanced-results.html",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Components/SideBar.vue",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Pages/Product.vue",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/.env",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_142411_product_image.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_141713_create_comments_table.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Pages/Profile/Category.vue",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/routes/web.php",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/app/Models/Image.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_133655_create_products_table.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_142411_products_images.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_140025_create_images_table.php",
-		"/E/Outside/SelfLearning/AdminFruit/app/Models/Comment.php",
-		"/E/Outside/SelfLearning/AdminFruit/package.json",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/resources/js/Pages/Product.vue",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Layouts/AppLayout.vue",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Partial/Footer.vue",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_133636_create_categories_table.php",
-		"/E/Outside/SelfLearning/AdminFruit/database/migrations/2022_04_30_133455_create_products_table.php",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Partial/Navbar.vue",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Pages/Partial/ControlSidebar.vue",
-		"/E/Outside/SelfLearning/AdminFruit/resources/js/Partial/Navbar",
-		"/E/Outside/SelfLearning/AdminFruit/resources/AdminLTE-3.2.0/index.html",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/webpack.config.js",
-		"/E/Outside/SelfLearning/ShopTrangSuc_Backend/webpack.mix.js",
-		"/E/Outside/SelfLearning/AdminFruit/webpack.mix.js",
-		"/E/Outside/SelfLearning/AdminFruit/vendor/symfony/routing/Route.php",
-		"/E/Outside/SelfLearning/AdminFruit/node_modules/color-convert/route.js",
-		"/E/Outside/SelfLearning/AdminFruit/composer.lock",
-		"/E/Temp/adminlte_test/index_demo.html",
-		"/E/Outside/SelfLearning/Laravel-Test/docker-compose.yml",
-		"/E/Outside/SelfLearning/Laravel-Test/.env",
-		"/E/Outside/SelfLearning/Laravel-Test/docker/config/default.conf",
-		"/E/Outside/SelfLearning/Laravel-Test/docker/Dockerfile",
-		"/E/Outside/SelfLearning/Laravel-Test/docker/logs/nginx/error.log",
-		"/E/Outside/SelfLearning/Laravel-Test/vendor/composer/installed.php",
-		"/E/Outside/SelfLearning/Laravel-Test/docker/nginx/default.conf",
-		"/E/Temp/adminlte_test/pages/Components/footer.html",
-		"/E/Temp/adminlte_test/footer.jsp"
+		"/E/Outside/SelfLearning/TestHosting/docker/config/default.conf"
 	],
 	"find":
 	{
@@ -1623,6 +2644,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<x-input",
+			"/label>",
+			"<label",
+			"label",
+			"class=\"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline\"",
+			"class=\"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline\" id=\"slug_product\"",
+			"class=\"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline\" id=\"price_product\"",
+			"<input class=\"shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline\" id=\"price_product\"",
+			"categories",
+			"name_product",
+			"_category",
+			"hover:text-blue-700",
+			"hover:bg-gray-100",
+			"underline hover:underline-offset-2",
+			"hover:text-blue-700",
+			"hover:text-blue-600",
+			"hover:text-blue-500",
+			"gray-200",
+			"auth",
+			"User",
+			"user",
+			"User",
+			"auth",
+			"Cart",
+			"Product",
+			"user",
+			"User",
+			"var",
+			"$category",
+			"=\"\"",
+			"button",
+			"name",
+			"Name",
+			"name",
+			"Name",
+			"username",
+			"category",
+			"categories",
+			"->children",
+			"$child",
+			"child",
 			"update_at",
 			"'created_at' => Carbon::now()->format('Y-m-d H:i:s'),\n            'update_at' => Carbon::now()->format('Y-m-d H:i:s'),",
 			"DB::table('categories')->insert([",
@@ -1709,48 +2771,7 @@
 			"userP",
 			"user",
 			"')",
-			"user",
-			"userP",
-			"user",
-			"create",
-			"Spatie\\Permission\\PermissionServiceProvider",
-			"SELECTOR_PRELOADER",
-			"init()",
-			"SELECTOR_PRELOADER",
-			"_config.preloadDuration",
-			"<li class=\"nav-item\">\n            <a href=\"https://adminlte.io/docs/3.1/\" class=\"nav-link\">\n              <i class=\"nav-icon fas fa-sign-out-alt\"></i>\n              <p>Logout</p>\n            </a>\n          </li>",
-			"dist/img",
-			"\"img/",
-			"dist/img",
-			"pieChart",
-			"salesChart",
-			"chart",
-			"inertia-link",
-			"img-circle elevation-2",
-			"div",
-			"a",
-			"A",
-			"a",
-			"NavBar",
-			"Footer",
-			"'\n",
-			"navbar",
-			"nav-item d-none d-sm-inline-block",
-			"index3",
-			"nav-item d-none d-sm-inline-block",
-			"index2.html",
-			"index3.html",
-			"ad-minl-ayout",
-			"adminl-ayout",
-			"AdminLayout",
-			"admin-layout",
-			"ain-layout",
-			"breadcrumb",
-			"breadcrumb float-sm-right",
-			"a",
-			"injectChanges",
-			"injectChange",
-			"domain:"
+			"user"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1777,11 +2798,42 @@
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/child_categories.blade.php",
+					"file": "app/Http/Controllers/ProductController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 108,
+						"buffer_size": 1448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								867,
+								867
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/layouts/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165,
 						"regions":
 						{
 						},
@@ -1796,7 +2848,7 @@
 						{
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1807,30 +2859,62 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "resources/views/category-list.blade.php",
+					"buffer": 2,
+					"file": "resources/js/lib.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2715,
+						"buffer_size": 165,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								16,
+								29
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"auto_name": "removeAccents.js",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/CategoryController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1476,
+								1425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 272.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1838,95 +2922,63 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "docker-compose.yml",
-					"selected": true,
+					"buffer": 4,
+					"file": "resources/views/product-form.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1076,
+						"buffer_size": 2952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1076,
-								1076
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/zzz A File Icon zzz/aliases/YAML (Docker).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 224.0,
-						"translation.y": 675.2,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/partitals/content-table-category.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
+								2790,
+								2790
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "docker/config/xdebug.ini",
+					"buffer": 5,
+					"file": "resources/js/app.js",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/Plain Text (INI).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -1966,7 +3018,7 @@
 	"menu_visible": true,
 	"output.1":
 	{
-		"height": 220.0
+		"height": 209.0
 	},
 	"output.2":
 	{
@@ -1998,11 +3050,11 @@
 	},
 	"output.main":
 	{
-		"height": 245.0
+		"height": 246.0
 	},
 	"output.server-run":
 	{
-		"height": 180.0
+		"height": 236.0
 	},
 	"output.xdebug":
 	{
@@ -2022,12 +3074,196 @@
 		"selected_items":
 		[
 			[
-				"produc",
+				"product fo",
+				"resources\\views\\product-form.blade.php"
+			],
+			[
+				"categorcon",
+				"app\\Http\\Controllers\\CategoryController.php"
+			],
+			[
+				"product ",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"csrfto",
+				"app\\Http\\Middleware\\VerifyCsrfToken.php"
+			],
+			[
+				"Select blad",
+				"resources\\views\\components\\select.blade.php"
+			],
+			[
+				"prima",
+				"resources\\views\\components\\primary-button.blade.php"
+			],
+			[
+				"primary",
+				"app\\View\\Components\\PrimaryButton.php"
+			],
+			[
+				"label",
+				"resources\\views\\components\\label.blade.php"
+			],
+			[
+				"prodcon",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"procon",
+				"node_modules\\postcss-import\\lib\\process-content.js"
+			],
+			[
+				"input",
+				"app\\View\\Components\\Input.php"
+			],
+			[
+				"product contr",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"profor",
+				"resources\\views\\product-form.blade.php"
+			],
+			[
+				"prod",
 				"app\\Models\\Product.php"
+			],
+			[
+				"catec",
+				"app\\Http\\Controllers\\CategoryController.php"
+			],
+			[
+				"category",
+				"app\\Models\\Category.php"
+			],
+			[
+				"cateli",
+				"resources\\views\\category-list.blade.php"
+			],
+			[
+				"catecon",
+				"node_modules\\webpack\\lib\\logging\\createConsoleLogger.js"
+			],
+			[
+				"produc con",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"procduCon",
+				"vendor\\symfony\\process\\Exception\\ProcessTimedOutException.php"
+			],
+			[
+				"route",
+				"node_modules\\color-convert\\route.js"
+			],
+			[
+				"cate  con",
+				"app\\Http\\Controllers\\CategoryController.php"
+			],
+			[
+				"content",
+				"resources\\views\\partitals\\content-table-category.blade.php"
+			],
+			[
+				"catblde",
+				"resources\\views\\category-list.blade.php"
+			],
+			[
+				"prode bla",
+				"resources\\views\\product-list.blade.php"
+			],
+			[
+				"productCon",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"producCon",
+				"app\\Http\\Controllers\\ProductController.php"
+			],
+			[
+				"producli",
+				"resources\\views\\product-list.blade.php"
+			],
+			[
+				"data seed",
+				"database\\seeders\\DatabaseSeeder.php"
+			],
+			[
+				"creat categor",
+				"database\\migrations\\2022_05_27_084843_create_categories_table.php"
+			],
+			[
+				"create produc",
+				"database\\migrations\\2022_05_30_034044_create_products_table.php"
+			],
+			[
+				"we",
+				"routes\\web.php"
+			],
+			[
+				"create categor",
+				"database\\migrations\\2022_05_27_084843_create_categories_table.php"
 			],
 			[
 				"cate",
 				"app\\Models\\Category.php"
+			],
+			[
+				"web.",
+				"routes\\web.php"
+			],
+			[
+				"contentta",
+				"resources\\views\\partitals\\content-table-category.blade.php"
+			],
+			[
+				"catcon",
+				"app\\Http\\Controllers\\CategoryController.php"
+			],
+			[
+				"creacate",
+				"database\\migrations\\2022_05_27_084843_create_categories_table.php"
+			],
+			[
+				"database",
+				"config\\database.php"
+			],
+			[
+				"categcon",
+				"app\\Http\\Controllers\\CategoryController.php"
+			],
+			[
+				"token",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php"
+			],
+			[
+				"catr-f",
+				"resources\\views\\category-form.blade.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"contentc",
+				"resources\\views\\partitals\\content-table-category.blade.php"
+			],
+			[
+				"creacategories",
+				"database\\migrations\\2022_05_27_084843_create_categories_table.php"
+			],
+			[
+				"api",
+				"routes\\api.php"
+			],
+			[
+				"Product",
+				"app\\Models\\Product.php"
+			],
+			[
+				"produc",
+				"app\\Models\\Product.php"
 			],
 			[
 				"categore",
@@ -2040,14 +3276,6 @@
 			[
 				"categocon",
 				"app\\Http\\Controllers\\CategoryController.php"
-			],
-			[
-				"web",
-				"routes\\web.php"
-			],
-			[
-				"we",
-				"routes\\web.php"
 			],
 			[
 				"side",
@@ -2064,14 +3292,6 @@
 			[
 				"app.bl",
 				"AdminFruit\\resources\\views\\app.blade.php"
-			],
-			[
-				"catec",
-				"AdminFruit\\app\\Http\\Controllers\\CategoryController.php"
-			],
-			[
-				"catecon",
-				"AdminFruit\\app\\Http\\Controllers\\CategoryController.php"
 			],
 			[
 				"appbl",
@@ -2098,16 +3318,8 @@
 				"AdminFruit\\resources\\js\\Pages\\Category.vue"
 			],
 			[
-				"categcon",
-				"AdminFruit\\app\\Http\\Controllers\\CategoryController.php"
-			],
-			[
 				"app.la",
 				"AdminFruit\\resources\\views\\app.blade.php"
-			],
-			[
-				"web.",
-				"AdminFruit\\routes\\web.php"
 			],
 			[
 				".en",
@@ -2172,10 +3384,6 @@
 			[
 				"producon",
 				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminProductController.php"
-			],
-			[
-				"categorcon",
-				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminCategoriesController.php"
 			],
 			[
 				"admi",
@@ -2376,162 +3584,6 @@
 			[
 				"products table",
 				"ShopTrangSuc_Backend\\database\\migrations\\2022_02_25_112554_create_products_table.php"
-			],
-			[
-				"categories table",
-				"ShopTrangSuc_Backend\\database\\migrations\\2022_02_17_041409_create_categories_table.php"
-			],
-			[
-				"category create",
-				"ShopTrangSuc_Backend\\app\\Http\\Requests\\UpdateCategoryRequest.php"
-			],
-			[
-				"image create",
-				"ShopTrangSuc_Backend\\database\\migrations\\2022_02_27_063344_create_images_table.php"
-			],
-			[
-				"Model Imag",
-				"ShopTrangSuc_Backend\\app\\Models\\Image.php"
-			],
-			[
-				"model cat",
-				"ShopTrangSuc_Backend\\app\\Models\\Category.php"
-			],
-			[
-				"product mode",
-				"ShopTrangSuc_Backend\\app\\Models\\Product.php"
-			],
-			[
-				"product migra",
-				"ShopTrangSuc_Backend\\database\\migrations\\2022_02_25_112554_create_products_table.php"
-			],
-			[
-				"admin",
-				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminProductsController.php"
-			],
-			[
-				"categocontroller",
-				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminCategoriesController.php"
-			],
-			[
-				"api",
-				"ShopTrangSuc_Backend\\routes\\api.php"
-			],
-			[
-				"kernel",
-				"ShopTrangSuc_Backend\\app\\Http\\Kernel.php"
-			],
-			[
-				"app.bla",
-				"ShopTrangSuc_Backend\\resources\\views\\app.blade.php"
-			],
-			[
-				"catecontro",
-				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminCategoriesController.php"
-			],
-			[
-				"admin/cate",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Categories.vue"
-			],
-			[
-				"user",
-				"ShopTrangSuc_Backend\\app\\Models\\User.php"
-			],
-			[
-				"admin/pro",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Products.vue"
-			],
-			[
-				"catrcontr",
-				"ShopTrangSuc_Backend\\app\\Http\\Controllers\\Admins\\AdminCategoriesController.php"
-			],
-			[
-				"admin/",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Categories.vue"
-			],
-			[
-				"mixweb",
-				"ShopTrangSuc_Backend\\node_modules\\laravel-mix\\setup\\webpack.config.js"
-			],
-			[
-				".emv",
-				"ShopTrangSuc_Backend\\node_modules\\.bin\\semver"
-			],
-			[
-				"Admin/",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Products.vue"
-			],
-			[
-				"footer",
-				"ShopTrangSuc_Backend\\resources\\js\\Components\\Footer.vue"
-			],
-			[
-				"Side",
-				"ShopTrangSuc_Backend\\resources\\js\\Components\\SideBar.vue"
-			],
-			[
-				"pack",
-				"ShopTrangSuc_Backend\\package.json"
-			],
-			[
-				"product.vu",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Products.vue"
-			],
-			[
-				"admin/da",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Dashboard.vue"
-			],
-			[
-				"das",
-				"backend\\resources\\js\\Pages\\Dashboard.vue"
-			],
-			[
-				"data",
-				"ShopTrangSuc_Backend\\config\\database.php"
-			],
-			[
-				"app.b",
-				"ShopTrangSuc_Backend\\resources\\views\\app.blade.php"
-			],
-			[
-				"prod",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Products.vue"
-			],
-			[
-				"mix-",
-				"backend\\public\\mix-manifest.json"
-			],
-			[
-				"listpro",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\ListProduct.vue"
-			],
-			[
-				"ADmin/Das",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Admin\\Dashboard.vue"
-			],
-			[
-				"Dashb",
-				"ShopTrangSuc_Backend\\resources\\js\\Pages\\Dashboard.vue"
-			],
-			[
-				"navba",
-				"ShopTrangSuc_Backend\\resources\\js\\Components\\NavBar.vue"
-			],
-			[
-				"playou",
-				"ShopTrangSuc_Backend\\resources\\js\\Layouts\\AppLayout.vue"
-			],
-			[
-				"asideB",
-				"ShopTrangSuc_Backend\\resources\\js\\Components\\SideBar.vue"
-			],
-			[
-				"index.blade.php",
-				"backend\\vendor\\nascent-africa\\jetstrap\\stubs\\livewire\\resources\\views\\api\\index.blade.php"
-			],
-			[
-				"login.bla",
-				"backend\\vendor\\nascent-africa\\jetstrap\\presets\\Common\\stubs\\livewire\\resources\\views\\auth\\login.blade.php"
 			]
 		],
 		"width": 0.0
@@ -2562,65 +3614,45 @@
 			"hide_conflict": false,
 			"restore_index":
 			{
-				"25":
+				"12":
 				{
 					"group": 0,
 					"index": 0
 				},
-				"28":
+				"13":
 				{
 					"group": 0,
-					"index": 11
+					"index": 1
 				},
-				"56":
+				"14":
 				{
 					"group": 0,
 					"index": 2
 				},
-				"60":
-				{
-					"group": 0,
-					"index": 7
-				},
-				"61":
-				{
-					"group": 0,
-					"index": 5
-				},
-				"64":
-				{
-					"group": 0,
-					"index": 9
-				},
-				"70":
-				{
-					"group": 0,
-					"index": 10
-				},
-				"72":
-				{
-					"group": 0,
-					"index": 8
-				},
-				"75":
-				{
-					"group": 0,
-					"index": 6
-				},
-				"76":
+				"15":
 				{
 					"group": 0,
 					"index": 3
 				},
-				"78":
+				"16":
 				{
 					"group": 0,
 					"index": 4
 				},
-				"81":
+				"32":
 				{
 					"group": 0,
-					"index": 1
+					"index": 5
+				},
+				"33":
+				{
+					"group": 0,
+					"index": 6
+				},
+				"35":
+				{
+					"group": 0,
+					"index": 7
 				}
 			},
 			"restore_layout":
@@ -2630,32 +3662,18 @@
 					[
 						0,
 						0,
-						2,
+						1,
 						1
-					],
-					[
-						0,
-						1,
-						1,
-						2
-					],
-					[
-						1,
-						1,
-						2,
-						2
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.5,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
-					0.702109704641,
 					1.0
 				]
 			}
@@ -2665,7 +3683,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 307.0,
+	"side_bar_width": 306.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

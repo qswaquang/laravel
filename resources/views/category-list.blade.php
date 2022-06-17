@@ -36,21 +36,23 @@
 		</div>
 	</div>
 	<div class="w-ful rounded overflow-hidden shadow-xl bg-white">
-		<div class="px-6 py-3">
+		<div class="px-6 py-3 flex justify-between">
 			<div class="font-bold">
 				<i class="fa-solid fa-table"></i>
 				Category Table
 			</div>
+      <div>
+        <a href="{{ route('admin.categories.create', ['id' => 0]) }}" class="font-medium text-base text-gray-700 hover:text-blue-500 hover:underline">
+          <i class="fa-solid fa-file-circle-plus"></i>
+          Add root
+        </a>
+      </div>
+      
 		</div>
     <div class="overflow-x-auto">
 		 <table class="w-full text-sm text-left text-gray-500" id="table-tree">
         <thead class="text-xs border-y border-gray-300 bg-gray-500 text-white uppercase">
             <tr>
-            		<th scope="col" class="py-3 px-4">
-                    <div class="flex items-center">
-                        <input id="checkbox-all" type="checkbox" class="w-3 h-3">
-                    </div>
-                </th>
                 <th scope="col" class="px-6 py-3">
                     Category name
                 </th>
@@ -58,7 +60,7 @@
                     Published
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Assigned products
+                    Num of product
                 </th>
                 <th scope="col" class="px-4 py-3 text-right">
                     Action
@@ -81,7 +83,7 @@
     $("#table-tree").treetable({ 
       expandable: true,
       clickableNodeNames : true,
-      column : 1
+      column : 0
     });
   </script>
 @endsection

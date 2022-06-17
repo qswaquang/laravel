@@ -11,26 +11,48 @@ class Category extends Model
 
     protected $fillable = [
         'name',
+        'parent_id',
+        'slug',
         'published',
     ];
 
-    public function scopeRoot($query)
+    public static function root()
     {
-        $query->whereNull('parent_id');
+       return self::whereNull('parent_id');
     }
 
     public function children()
     {
-        return $this->hasMany(Category::class, 'parent_id', 'id');
+        return $this->hasMany(Category::class, 'parent_id', 'id')->with('children')->withCount('products');
     }
 
     public function parent()
     {
-        return $this->hasManny(Category::class, 'id', 'parent_id');
+        return $this->hasMany(Category::class);
     }
 
     public function products() 
     {
-        return $this->hasManny(Product::class);
+        return $this->hasMany(Product::class);
+    }
+
+    public function deleteAllChild()
+    {
+        return $this->children()->delete();
+    }
+
+    public static function sumProductCountChild($categories)
+    {
+        return $categories->transform(
+            function($category){
+                $category->children->transform(
+                    function($category){
+                        $category['products_count'] = $category->children->sum('products_count') === 0 ? $category['products_count'] : $category->children->sum('products_count');
+                        return $category;
+                });
+                $category['products_count'] = $category->children->sum('products_count');
+                return $category;
+            }
+        );
     }
 }

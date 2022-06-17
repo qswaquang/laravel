@@ -8,81 +8,57 @@ use App\Http\Requests\UpdateCategoryRequest;
 
 class CategoryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        $categories = Category::root()->with('children')->get();
-
+        $categories = Category::root()->with('children')->withCount('products')->get();
+        $categories = Category::sumProductCountChild($categories);
         return view('category-list')->with('categories', $categories);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function create($id)
     {
-        //
+
+        return view('category-form')->with(['parent_id' => $id, 'editmode' => false]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreCategoryRequest  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(StoreCategoryRequest $request)
     {
-        //
+
+        $category = $request->all();
+        $category['published'] = $request->has('published');
+        $category['parent_id'] = $category['parent_id'] == 0 ? null : $category['parent_id'];
+        Category::create($category);
+        return redirect()->route('admin.categories.index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
-     */
     public function show(Category $category)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Category $category)
     {
-        //
+        return view('category-form')->with(['category'=> $category, 'editmode' => true]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateCategoryRequest  $request
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
-     */
     public function update(UpdateCategoryRequest $request, Category $category)
     {
-        //
+        $categoryEdited = $request->all();
+        $categoryEdited['published'] = $request->has('published');
+        $category->update($categoryEdited);
+        return redirect()->route('admin.categories.index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Category $category)
     {
-        //
+        $category->delete();
+        return redirect()->route("admin.categories.index");
+    }
+
+    public function getAll()
+    {
+        $categories = Category::root()->with('children')->withCount('products')->get();
+        $categories = Category::sumProductCountChild($categories);
+        return $categories;
     }
 }

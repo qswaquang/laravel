@@ -27,6 +27,10 @@ window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jqu
 
 __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.min.js");
 
+function titleToSlug(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+}
+
 /***/ }),
 
 /***/ "./node_modules/jquery/dist/jquery.js":

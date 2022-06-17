@@ -25,15 +25,38 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="{{ route('admin.products.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Product</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="{{ route('admin.categories.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Category</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item menu-close">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa-solid fa-layer-group"></i>
+              <p>
+                Sale
+                <i class="right fas fa-angle-right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('admin.products.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Order</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('admin.categories.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Status</p>
                 </a>
               </li>
             </ul>
