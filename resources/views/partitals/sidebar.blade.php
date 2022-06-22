@@ -2,7 +2,7 @@
     <div class="sidebar">
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">{{ Auth::user()->name }}</a>
         </div>
       </div>
       <nav class="mt-2">
@@ -40,7 +40,7 @@
           </li>
           <li class="nav-item menu-close">
             <a href="#" class="nav-link">
-              <i class="nav-icon fa-solid fa-layer-group"></i>
+              <i class="nav-icon fa-solid fa-cart-shopping"></i>
               <p>
                 Sale
                 <i class="right fas fa-angle-right"></i>
@@ -48,7 +48,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ route('admin.products.index') }}" class="nav-link">
+                <a href="{{ route('admin.orders.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Order</p>
                 </a>

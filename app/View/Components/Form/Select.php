@@ -1,10 +1,10 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Form;
 
 use Illuminate\View\Component;
 
-class Label extends Component
+class Select extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class Label extends Component
      */
     public function render()
     {
-        return view('components.label');
+        return view('components.form.select');
     }
 }
