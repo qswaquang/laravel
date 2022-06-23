@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('style-script')
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css">
 @endsection
 
 @section('title', 'form product')
@@ -15,7 +15,7 @@
 @section('content')
 <x-card.card>
   <x-card.header
-    title-icon-class='fa-solid fa-align-justify'
+    title-icon-class='fa-solid fa-list-ul'
     title-text='Product form'>
   </x-card.header>
   <x-card.body>
@@ -89,12 +89,57 @@
   </x-card.body>
 </x-card.card>
 
+<x-card.card>
+  <x-card.header
+    title-icon-class='fa-solid fa-images'
+    title-text='Assign Image'>
+  </x-card.header>
+  <x-card.body>
+    @if($editmode)
+      <h3 class="text-center my-3 font-bold">Upload Image</h3>
+      <form class="px-10">
+        <div class="border-4 border-blue-500 border-dotted m-auto" style="width: 12rem;height: 12rem;">
+          <img class="w-full h-full" id="image" src="" alt="">
+        </div>
+        <x-form.file class="flex justify-center my-4" id="fileImageProduct" name="imageProduct"/>
+        <x-form.control>
+          <x-form.label for="title">Title:</x-form.label>
+          <x-form.input name="title" placeholder="Enter Title Image"/>
+        </x-form.control>
+        <x-form.control>
+          <x-form.label for="alt">Alt:</x-form.label>
+          <x-form.input name="alt" placeholder="Enter Alt Image"/>
+        </x-form.control>
+        <div class="flex justify-end w-full mb-4">
+          <x-form.primary-button>
+            Assign
+          </x-form.primary-button>
+        </div>
+      </form>
+    @else
+      <p class="py-4 text-center">You must create product first</p>
+    @endif
+    
+  </x-card.body>
+</x-card.card>
+
 @endsection
 
 @section('js-script')
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.js"></script>
   <script>
     $('#name_product').keyup(function(){
       $('#slug_product').val(titleToSlug($('#name_product').val()));
     });
+
+    $("#fileImageProduct").change(function() {
+      if (!this.files || !this.files[0]) return;
+        const FR = new FileReader();
+        FR.addEventListener("load", function(evt) {
+          $("#image").attr("src", evt.target.result);
+          
+        })
+        FR.readAsDataURL(this.files[0]);
+      });
   </script>
 @endsection

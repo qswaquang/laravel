@@ -4,7 +4,7 @@ namespace App\View\Components\Form;
 
 use Illuminate\View\Component;
 
-class FormCreateUpdate extends Component
+class Form extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class FormCreateUpdate extends Component
      */
     public function render()
     {
-        return view('components.form.form-create-update');
+        return view('components.form.form');
     }
 }

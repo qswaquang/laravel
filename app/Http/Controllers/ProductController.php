@@ -26,8 +26,9 @@ class ProductController extends Controller
 
     public function store(StoreProductRequest $request)
     {
-        Product::create($request->all());
-        return redirect()->route('admin.products.index');
+        $product = Product::create($request->all())->id;
+        $categories = Category::root()->with('children')->get();
+        return redirect()->route('admin.products.edit', ['editmode' => true, 'categories'=> $categories, 'product' => $product]);
     }
 
 
