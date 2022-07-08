@@ -2,32 +2,43 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Product;
-use App\Models\Category;
 use App\Http\Requests\StoreProductRequest;
 use App\Http\Requests\UpdateProductRequest;
+use App\Models\Category;
+use App\Models\Image;
+use App\Models\Product;
+use App\Repositories\CategoryRepositoryInterface;
+use App\Repositories\ProductRepositoryInterface;
 use Illuminate\Contracts\Support\Jsonable;
 
 class ProductController extends Controller
 {
+    protected $productRepo;
+    protected $categoryRepo;
+
+    public function __construct(ProductRepositoryInterface $productRepo ,CategoryRepositoryInterface $categoryRepo)
+    {
+        $this->productRepo = $productRepo;
+        $this->categoryRepo = $categoryRepo;
+    }
 
     public function index()
     {
-        $products = Product::with('category')->paginate(10);
+        $products = $this->productRepo->getProducts();
         return view('product-list')->with(['products' => $products]);
     }
 
     public function create()
     {
-        $categories = Category::root()->with('children')->get();
+        $categories = $this->categoryRepo->getAll();
         return view('product-form')->with(['editmode' => false, 'categories'=> $categories]);
     }
 
 
     public function store(StoreProductRequest $request)
     {
-        $product = Product::create($request->all())->id;
-        $categories = Category::root()->with('children')->get();
+        $product = $this->productRepo->create($request->all())->id;
+        $categories = $this->categoryRepo->getAll();
         return redirect()->route('admin.products.edit', ['editmode' => true, 'categories'=> $categories, 'product' => $product]);
     }
 
@@ -39,19 +50,21 @@ class ProductController extends Controller
 
     public function edit(Product $product)
     {
+        // dd($product);
         $categories = Category::root()->with('children')->get();
         return view('product-form')->with(['editmode' => true, 'categories'=> $categories, 'product' => $product]);
     }
 
-    public function update(UpdateProductRequest $request, Product $product)
+    public function update(UpdateProductRequest $request, $id)
     {
-        $product->update($request->all());
+        $this->productRepo->update($request->all(), $id);
+
         return redirect()->route('admin.products.index');
     }
 
-    public function destroy(Product $product)
+    public function destroy($id)
     {
-        $product->delete();
+        $this->productRepo->delete($id)
         return redirect()->route('admin.products.index');
     }
 }

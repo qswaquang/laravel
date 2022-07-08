@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Image;
 use App\Http\Requests\StoreImageRequest;
 use App\Http\Requests\UpdateImageRequest;
+use App\Models\Image;
+use App\Models\Product;
 
 class ImageController extends Controller
 {
@@ -36,7 +37,36 @@ class ImageController extends Controller
      */
     public function store(StoreImageRequest $request)
     {
-        //
+        if($request->hasFile('imageProduct')) {
+            $pathStore = '/products';
+
+            //get filename with extension
+            $filenamewithextension = $request->file('imageProduct')->getClientOriginalName();
+
+
+            $filename = $request->title ? $request->title : pathinfo($filenamewithextension, PATHINFO_FILENAME);
+
+      
+            //get file extension
+            $extension = $request->file('imageProduct')->getClientOriginalExtension();
+      
+            //filename to store
+            $filenametostore = $filename.'_'.time().'.'.$extension;
+
+            $path = $request->file('imageProduct')->storeAs('public'.$pathStore, $filenametostore);
+
+            $image = Image::create([
+                'title' => str_replace("-", " ", $filename),
+                'src' =>  '/storage'.$pathStore.'/'.$filenametostore, 
+                'alt' => $request->alt,
+                'display_order' => null,
+            ]);
+
+            $product = Product::findOrFail($request->productId);
+
+            $product->images()->attach($image->id);
+        }
+        return redirect()->back();
     }
 
     /**
@@ -70,7 +100,14 @@ class ImageController extends Controller
      */
     public function update(UpdateImageRequest $request, Image $image)
     {
-        //
+        if ($request->ajax()) {
+            Image::find($request->pk)
+                ->update([
+                    $request->name => $request->value
+                ]);
+  
+            return response()->json(['success' => true]);
+        }
     }
 
     /**
@@ -81,6 +118,7 @@ class ImageController extends Controller
      */
     public function destroy(Image $image)
     {
-        //
+        $image->delete();
+        return redirect()->back();
     }
 }

@@ -9,6 +9,7 @@
 @endsection
 
 @section('content')
+
 <x-card.card>
 	<x-card.header 
 		title-icon-class="fa-solid fa-magnifying-glass"
@@ -24,9 +25,15 @@
 			toolAddHref="{{ route('admin.products.create') }}"></x-card.header-tool>		
 	</x-card.header>
 	<x-card.body>
-		<x-table.table :headers="['Product name', 'Stock', 'Price', 'Category']">
+		<x-table.table :headers="['Picture','Product name', 'Stock', 'Price', 'Category']">
 			@foreach ($products as $product)
 				<x-table.tr-body>
+					<x-table.td class="">
+						@foreach ($product->images as $image)
+							<img style="width:100px;height:100px;" src="{{ $image->src }}" alt="{{ $image->alt }}"> 
+							@break
+						@endforeach
+					</x-table.td>
 					<x-table.td>{{ $product->name }}</x-table.td>
 					<x-table.td>{{ $product->stock }}</x-table.td>
 					<x-table.td>{{ $product->price }}</x-table.td>

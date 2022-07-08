@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +32,10 @@ Route::prefix('/admin')->middleware('auth')->name("admin.")->group(function() {
 
     Route::resource('products', ProductController::class);
     Route::resource('orders', OrderController::class);
+    Route::resource('images', ImageController::class)->only('store','destroy');
+
+    Route::post('/images/update' ,[ImageController::class, 'update'])->name('images.update');
     
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class ,'index'])->name('home');

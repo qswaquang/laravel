@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('style-script')
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
 @endsection
 
 @section('title', 'form product')
@@ -13,6 +14,7 @@
 @endsection
 
 @section('content')
+
 <x-card.card>
   <x-card.header
     title-icon-class='fa-solid fa-list-ul'
@@ -92,42 +94,105 @@
 <x-card.card>
   <x-card.header
     title-icon-class='fa-solid fa-images'
-    title-text='Assign Image'>
+    title-text='Edit Image'>
   </x-card.header>
   <x-card.body>
+    
     @if($editmode)
+      <x-table.table :headers="['Image', 'Display order', 'Alt', 'Title']">
+        @foreach ($product->images as $image)
+          <x-table.tr-body>
+            <x-table.td>
+              <img width="100" height="100" src="{{ $image->src }}">
+            </x-table.td>
+            <x-table.td> 
+              <a href="" class="edit" data-url="{{ route('admin.images.update') }}" data-name="display_order" data-type="text" data-pk="{{ $image->id }}" data-title="Edit display order"> 
+                {{ $image->display_order }} 
+              </a> 
+            </x-table.td>
+            <x-table.td> 
+              <a href="" class="edit" data-name="alt" data-type="text" data-pk="{{ $image->id }}" data-title="Edit alt"> 
+                {{ $image->alt }} 
+              </a>
+            </x-table.td>
+            <x-table.td> 
+              <a href="" class="edit" data-name="title" data-type="text" data-pk="{{ $image->id }}" data-title="Edit title"> 
+                {{ $image->title }} 
+              </a> 
+            </x-table.td>
+            <x-table.td-action 
+                :actions='[
+                  [
+                    "action" => "delete",
+                    "href" => "/admin/images/$image->id",
+                  ],
+                ]'/>
+          </x-table.tr-body>
+        @endforeach
+      </x-table.table>
+
+      <div class="border-t border-gray-300"></div>
+
       <h3 class="text-center my-3 font-bold">Upload Image</h3>
-      <form class="px-10">
+      <form id="formImageProduct" action="{{ route('admin.images.store') }}" class="px-10" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="productId" value="{{$product->id}}">
         <div class="border-4 border-blue-500 border-dotted m-auto" style="width: 12rem;height: 12rem;">
-          <img class="w-full h-full" id="image" src="" alt="">
+          <img class="w-full h-full" id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/-Insert_image_here-.svg/320px--Insert_image_here-.svg.png" alt="">
         </div>
-        <x-form.file class="flex justify-center my-4" id="fileImageProduct" name="imageProduct"/>
-        <x-form.control>
-          <x-form.label for="title">Title:</x-form.label>
-          <x-form.input name="title" placeholder="Enter Title Image"/>
-        </x-form.control>
-        <x-form.control>
-          <x-form.label for="alt">Alt:</x-form.label>
-          <x-form.input name="alt" placeholder="Enter Alt Image"/>
-        </x-form.control>
+        <x-form.file accept="image/*" class="flex justify-center my-4" id="fileImageProduct" name="imageProduct"/>
+        <input class="text-capitalize" type="checkbox" id="imageProductEditAdvance">
+        <label for="imageProductEditAdvance"> Edit advance image</label>
+        <div id="zoneEditProductImageAdvance" class="hidden">
+          <x-form.control>
+            <x-form.label for="title">Title:</x-form.label>
+            <x-form.input name="title" placeholder="Enter Title Image"/>
+          </x-form.control>
+          <x-form.control>
+            <x-form.label for="alt">Alt:</x-form.label>
+            <x-form.input name="alt" placeholder="Enter Alt Image"/>
+          </x-form.control>
+        </div>
         <div class="flex justify-end w-full mb-4">
-          <x-form.primary-button>
-            Assign
+          <x-form.primary-button type="button" id="submitImageProduct">
+            Upload
           </x-form.primary-button>
         </div>
       </form>
     @else
       <p class="py-4 text-center">You must create product first</p>
     @endif
-    
   </x-card.body>
 </x-card.card>
 
 @endsection
 
 @section('js-script')
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/dropzone.js"></script>
+  <script>$.fn.poshytip={defaults:null}</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
   <script>
+    $.fn.editable.defaults.mode = 'inline';
+
+    $.ajaxSetup({
+        headers: {
+          'X-CSRF-TOKEN': '{{csrf_token()}}'
+        }
+    });
+
+    $('.edit').editable({
+       url: "{{ url('/admin/images/update') }}",
+       success: function (response, val) {
+         console.log(response);
+       }
+    });
+
+    $("#submitImageProduct").click(function() {
+      if ($("#fileImageProduct")[0].files.length === 0) {
+        alert("Upload Image first");
+      } else {
+        $("#formImageProduct").submit();
+      }
+    });
+
     $('#name_product').keyup(function(){
       $('#slug_product').val(titleToSlug($('#name_product').val()));
     });
@@ -140,6 +205,15 @@
           
         })
         FR.readAsDataURL(this.files[0]);
-      });
+    });
+
+    $('#imageProductEditAdvance').change(function() {
+      if ($('#imageProductEditAdvance')[0].checked) {
+        $('#zoneEditProductImageAdvance').attr('class', 'block');
+      } else {
+        $('#zoneEditProductImageAdvance').attr('class', 'hidden');
+      }
+    });
+      
   </script>
 @endsection

@@ -2,17 +2,25 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Category;
 use App\Http\Requests\StoreCategoryRequest;
 use App\Http\Requests\UpdateCategoryRequest;
+use App\Models\Category;
+use App\Repositories\CategoryRepositoryInterface;
 
 class CategoryController extends Controller
 {
+    protected $categoryRepo;
+
+    public function __construct(CategoryRepositoryInterface $categoryRepo)
+    {
+        $this->categoryRepo = $categoryRepo;
+    }
+
     public function index()
     {
-        $categories = Category::root()->with('children')->withCount('products')->get();
-        $categories = Category::sumProductCountChild($categories);
-        return view('category-list')->with('categories', $categories);
+        $categoriesChildCount = $this->categoryRepo->getCategories();
+        $categoriesParentCount = Category::sumProductCountChild($categoriesChildCount);
+        return view('category-list')->with('categories', $categoriesParentCount);
     }
 
     public function create($id)
@@ -27,11 +35,11 @@ class CategoryController extends Controller
         $category = $request->all();
         $category['published'] = $request->has('published');
         $category['parent_id'] = $category['parent_id'] == 0 ? null : $category['parent_id'];
-        Category::create($category);
+        $this->categoryRepo->create($category);
         return redirect()->route('admin.categories.index');
     }
 
-    public function show(Category $category)
+    public function show($id)
     {
         //
     }
@@ -41,24 +49,18 @@ class CategoryController extends Controller
         return view('category-form')->with(['category'=> $category, 'editmode' => true]);
     }
 
-    public function update(UpdateCategoryRequest $request, Category $category)
+    public function update(UpdateCategoryRequest $request, $id)
     {
         $categoryEdited = $request->all();
         $categoryEdited['published'] = $request->has('published');
-        $category->update($categoryEdited);
+
+        $this->categoryRepo->update($categoryEdited, $id);
         return redirect()->route('admin.categories.index');
     }
 
-    public function destroy(Category $category)
+    public function destroy($id)
     {
-        $category->delete();
+        $this->categoryRepo->delete($id);
         return redirect()->route("admin.categories.index");
-    }
-
-    public function getAll()
-    {
-        $categories = Category::root()->with('children')->withCount('products')->get();
-        $categories = Category::sumProductCountChild($categories);
-        return $categories;
     }
 }

@@ -16,7 +16,6 @@
           {{ $header_action_text }}
         </th>
       @endif
-      
     </tr>
   </thead>
   <tbody>

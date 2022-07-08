@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use DB;
 
 class Product extends Model
 {
@@ -26,5 +27,10 @@ class Product extends Model
     public function orders() 
     {
         return $this->belongsToMany(Order::class, 'order_details', 'product_id', 'order_id');
+    }
+
+    public function images() 
+    {
+        return $this->belongsToMany(Image::class, 'images_products', 'product_id', 'image_id')->orderBy(DB::raw('ISNULL(images.display_order), images.display_order'), 'ASC');
     }
 }
