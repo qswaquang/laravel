@@ -18,6 +18,8 @@ class VerifyCsrfToken extends Middleware
         '/admin/products/*',
         '/admin/images/',
         '/admin/images/*',
+        '/admin/roles/',
+        '/admin/roles/*',
         '/register',
     ];
 }

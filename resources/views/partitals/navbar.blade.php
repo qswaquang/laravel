@@ -6,6 +6,10 @@
     </ul>
 
     <ul class="navbar-nav ml-auto">
-      
+          <form id="logout-form" action="{{ route('logout') }}" method="POST">
+              @csrf
+              <x-form.primary-button> Logout </x-primary-button>
+          </form>
+
     </ul>
   </nav>

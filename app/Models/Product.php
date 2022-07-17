@@ -2,13 +2,16 @@
 
 namespace App\Models;
 
+use App\Lib\BaseFilter;
+use App\Traits\FilterTrait;
+use DB;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use DB;
+
 
 class Product extends Model
 {
-    use HasFactory;
+    use HasFactory, FilterTrait;
 
     protected $fillable = [
         'name',
@@ -32,5 +35,32 @@ class Product extends Model
     public function images() 
     {
         return $this->belongsToMany(Image::class, 'images_products', 'product_id', 'image_id')->orderBy(DB::raw('ISNULL(images.display_order), images.display_order'), 'ASC');
+    }
+
+    public function filterName($query, $value)
+    {
+        return $query->where('name', 'LIKE', '%' . $value . '%');
+    }
+
+    public function filterPrice($query, $value)
+    {
+        $range = explode(";", $value);
+
+        return $query->whereBetween('price', [$range[0], $range[1]]);
+    }
+
+    public function filterStock($query, $value)
+    {
+        $range = explode(";", $value);
+
+        return $query->whereBetween('stock', [$range[0], $range[1]]);
+    }
+
+    public function filterCategory($query, $value)
+    {
+        if ($value != -1) {
+            return $query->where('category_id', $value);
+        }
+        
     }
 }

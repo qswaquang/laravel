@@ -2,20 +2,26 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
+use App\Models\User;
+use App\Repositories\UserRepositoryInterface;
+use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    protected $userRepo;
+
+    public function __construct(UserRepositoryInterface $userRepo)
     {
-        //
+        $this->userRepo = $userRepo;
+    } 
+
+    public function index(Request $filters)
+    {
+        $users = $this->userRepo->getUsers($filters);
+
+        return view('user-list')->with(['users' => $users]);    
     }
 
     /**

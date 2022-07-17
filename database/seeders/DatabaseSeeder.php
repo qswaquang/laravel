@@ -2,11 +2,14 @@
 
 namespace Database\Seeders;
 
+use App\Models\Order;
+use App\Models\Permission;
+use App\Models\Product;
+use App\Models\Role;
+use App\Models\User;
+use Database\Seeders\PermissionSeeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Product;
-use App\Models\User;
-use App\Models\Order;
 
 class DatabaseSeeder extends Seeder
 {
@@ -24,6 +27,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->count(50)->create();
         $this->call(OrderStatusSeeder::class);
         $this->call(OrderSeeder::class);
+        $this->call(PermissionSeeder::class);
 
         $products = Product::all();
 
@@ -35,6 +39,17 @@ class DatabaseSeeder extends Seeder
             $order->products()->attach(
                 $arr
             ); 
+        });
+
+        $permissions = Permission::all();
+
+        Role::all()->each(function ($role) use ($permissions) {
+            for ($i=0; $i < rand(1, 7); $i++) { 
+                $role->permissions()->syncWithoutDetaching(
+                    $permissions->random()->id
+                );
+            }
+             
         });
     }
 }

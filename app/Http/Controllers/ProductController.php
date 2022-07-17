@@ -10,6 +10,7 @@ use App\Models\Product;
 use App\Repositories\CategoryRepositoryInterface;
 use App\Repositories\ProductRepositoryInterface;
 use Illuminate\Contracts\Support\Jsonable;
+use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
@@ -22,10 +23,11 @@ class ProductController extends Controller
         $this->categoryRepo = $categoryRepo;
     }
 
-    public function index()
+    public function index(Request $filters)
     {
-        $products = $this->productRepo->getProducts();
-        return view('product-list')->with(['products' => $products]);
+        $products = $this->productRepo->getProducts($filters);
+        $categories = $this->categoryRepo->getAll();
+        return view('product-list')->with(['products' => $products, 'categories'=> $categories, 'filters' => $filters]);
     }
 
     public function create()
@@ -64,7 +66,7 @@ class ProductController extends Controller
 
     public function destroy($id)
     {
-        $this->productRepo->delete($id)
+        $this->productRepo->delete($id);
         return redirect()->route('admin.products.index');
     }
 }

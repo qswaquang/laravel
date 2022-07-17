@@ -70,9 +70,9 @@
           @foreach ($categories as $category)
             @if (count($category->children))
               @if ($editmode)
-                @include('child_categories_combobox', ['childs' => $category->children, 'category_id' => $product->category_id])
+                @include('child_categories_combobox', ['childs' => $category->children, 'category_id' => $product->category_id, 'pathParent' => $category->name.' > '])
               @else
-                @include('child_categories_combobox', ['childs' => $category->children, 'category_id' => -1])
+                @include('child_categories_combobox', ['childs' => $category->children, 'category_id' => -1, 'pathParent' => $category->name.' > '])
               @endif
             @else
               <option {{ $editmode ? ($category->id === $product->category_id ? 'selected' : '') : '' }} value="{{ $category->id }}">{{ $category->name }}</option>

@@ -2,20 +2,29 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Role;
 use App\Http\Requests\StoreRoleRequest;
 use App\Http\Requests\UpdateRoleRequest;
+use App\Models\Permission;
+use App\Models\Role;
+use App\Repositories\PermissionRepositoryInterface;
+use App\Repositories\RoleRepositoryInterface;
+use Illuminate\Http\Request;
 
 class RoleController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    protected $roleRepo;
+    protected $permissionRepo;
+
+    public function __construct(RoleRepositoryInterface $roleRepo, PermissionRepositoryInterface $permissionRepo)
     {
-        //
+        $this->roleRepo = $roleRepo;
+        $this->permissionRepo = $permissionRepo;
+    }
+
+    public function index(Request $filters)
+    {
+        $roles = $this->roleRepo->getRoles($filters);
+        return view('role-list')->with(['roles' => $roles]);
     }
 
     /**
@@ -25,7 +34,8 @@ class RoleController extends Controller
      */
     public function create()
     {
-        //
+        $permissions = $this->permissionRepo->getAll();
+        return view('role-form')->with(['editmode' => false, 'permissions' => $permissions]);
     }
 
     /**
@@ -36,7 +46,9 @@ class RoleController extends Controller
      */
     public function store(StoreRoleRequest $request)
     {
-        //
+        $role = $request->all();
+        $this->roleRepo->create($role);
+        return redirect()->route('admin.roles.index');
     }
 
     /**
@@ -58,7 +70,8 @@ class RoleController extends Controller
      */
     public function edit(Role $role)
     {
-        //
+        $permissions = $this->permissionRepo->getAll();
+        return view('role-form')->with(['role' => $role ,'editmode' => true, 'permissions' => $permissions]);
     }
 
     /**
@@ -68,9 +81,11 @@ class RoleController extends Controller
      * @param  \App\Models\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateRoleRequest $request, Role $role)
+    public function update(UpdateRoleRequest $request, $id)
     {
-        //
+        $role = $request->all();
+        $this->roleRepo->update($role, $id);
+        return redirect()->route('admin.roles.index');
     }
 
     /**
@@ -79,8 +94,9 @@ class RoleController extends Controller
      * @param  \App\Models\Role  $role
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Role $role)
+    public function destroy($id)
     {
-        //
+        $this->roleRepo->delete($id);
+        return redirect()->route('admin.roles.index');
     }
 }

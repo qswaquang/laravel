@@ -1,5 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+.select2-container {
+    @apply shadow appearance-none border rounded py-1 px-2 text-gray-700 leading-tight outline-none;
+}
+
+.select2-container--default .select2-selection--multiple {
+	border: none !important;
+}
+
+.select2-container--default .select2-dropdown .select2-search__field:focus, .select2-container--default .select2-search--inline .select2-search__field:focus {
+	@apply border-none;
+}
+
 @tailwind utilities;
 
 .nav-sidebar .menu-is-opening>.nav-link i.right, .nav-sidebar .menu-is-opening>.nav-link svg.right, .nav-sidebar .menu-open>.nav-link i.right, .nav-sidebar .menu-open>.nav-link svg.right {

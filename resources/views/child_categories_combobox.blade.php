@@ -1,9 +1,8 @@
-@foreach($childs as $category)
-	 
-	@if(count($category->children))
-		@include('child_categories_combobox', ['childs' => $category->children])
+@foreach($childs as $child)
+	@if(count($child->children))
+		@include('child_categories_combobox', ['childs' => $child->children, 'pathParent' => $pathParent.$child->name.' > '])
 	@else
-		<option {{ $category->id === $category_id ? 'selected' : '' }} value="{{ $category->id }}"> {{ $category->name }}</option>
+		<option {{ $child->id == $category_id ? 'selected' : '' }} value="{{ $child->id }}">{{ $pathParent }} {{ $child->name }}</option>
 	@endif
 @endforeach
 	{{-- expr --}}
