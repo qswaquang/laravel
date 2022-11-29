@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function(){
-    return "asdasd"
+    return "asdasd";
 });
 
 Route::get('/dashboard', function(){
