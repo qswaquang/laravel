@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>@yield('title', config('app.name', '@Master Layout'))</title>
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	<script src="{{ asset('js/app.js') }}"></script>
 	@yield('style-script')
 	
 </head>
@@ -36,7 +37,6 @@
 		</div>
 		@include('partitals.footer')
 	</div>
-	<script src="{{ asset('js/app.js') }}"></script>
 	<script type="text/javascript">
 		function titleToSlug(str) {
       return str.normalize('NFD')

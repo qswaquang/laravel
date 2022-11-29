@@ -53,11 +53,11 @@ class ImageController extends Controller
             //filename to store
             $filenametostore = $filename.'_'.time().'.'.$extension;
 
-            $path = $request->file('imageProduct')->storeAs('public'.$pathStore, $filenametostore);
+            $path = $request->file('imageProduct')->storePubliclyAs('public'.$pathStore, $filenametostore);
 
             $image = Image::create([
                 'title' => str_replace("-", " ", $filename),
-                'src' =>  '/storage'.$pathStore.'/'.$filenametostore, 
+                'src' =>  str_replace('public', 'storage', $path), 
                 'alt' => $request->alt,
                 'display_order' => null,
             ]);

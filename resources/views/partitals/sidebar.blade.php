@@ -54,7 +54,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('admin.categories.index') }}" class="nav-link">
+                <a href="{{ route('admin.statuses.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Status</p>
                 </a>
@@ -74,6 +74,29 @@
                 <a href="{{ route('admin.users.index') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>User</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('admin.roles.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Role</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item menu-close">
+            <a href="#" class="nav-link">
+              <i class="fa-solid fa-file-pen"></i>
+              <p>
+                Content
+                <i class="right fas fa-angle-right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{ route('admin.sliders.index') }}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Slider</p>
                 </a>
               </li>
               <li class="nav-item">

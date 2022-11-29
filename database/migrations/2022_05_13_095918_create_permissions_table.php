@@ -16,7 +16,10 @@ return new class extends Migration
         Schema::create('permissions', function (Blueprint $table) {
             $table->id();
             $table->string('title')->unique();
+            $table->unsignedBigInteger("parent_id")->nullable()->default(null);
             $table->timestamps();
+
+            $table->foreign("parent_id")->references('id')->on('permissions')->onDelete('cascade');
         });
     }
 

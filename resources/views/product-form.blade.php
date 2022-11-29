@@ -185,16 +185,16 @@
        }
     });
 
+    $('#name_product').keyup(function(){
+      $('#slug_product').val(titleToSlug($('#name_product').val()));
+    });
+
     $("#submitImageProduct").click(function() {
       if ($("#fileImageProduct")[0].files.length === 0) {
         alert("Upload Image first");
       } else {
         $("#formImageProduct").submit();
       }
-    });
-
-    $('#name_product').keyup(function(){
-      $('#slug_product').val(titleToSlug($('#name_product').val()));
     });
 
     $("#fileImageProduct").change(function() {

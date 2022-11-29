@@ -51,7 +51,7 @@
             "type" => "text",
             "placeholder" => "Enter title",
             "name" => "title",
-            "label" => "Title:",
+            "label" => "Title: ",
             "value" => $editmode ? $role->title : "",
           ],
           [
@@ -74,7 +74,7 @@
       @endphp
       <x-form.form-simple
         action="{{ $editmode ? route('admin.roles.update', ['role' => $role]) : route('admin.roles.store') }}"
-        editmode="{{$editmode}}"
+        editmode="{{ $editmode }}"
         :inputs="$inputs">
 
     </x-form.form-simple>

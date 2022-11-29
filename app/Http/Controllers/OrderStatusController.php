@@ -15,7 +15,8 @@ class OrderStatusController extends Controller
      */
     public function index()
     {
-        //
+        $statuses = OrderStatus::all();
+        return view('status-list')->with(['statuses' => $statuses]);
     }
 
     /**

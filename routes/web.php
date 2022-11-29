@@ -4,8 +4,10 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\OrderStatusController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\SliderController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -48,6 +50,15 @@ Route::prefix('/admin')->middleware('auth')->name("admin.")->group(function() {
     Route::resource('roles', RoleController::class);
 
     Route::resource('users', UserController::class);
+
+    Route::resource('sliders', SliderController::class);
+
+    Route::resource('statuses', OrderStatusController::class);
+
 });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class ,'index'])->name('home');
+
+Route::get('/images', function () {
+    Artisan::call('storage:link');
+});

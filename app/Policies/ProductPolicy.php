@@ -18,7 +18,7 @@ class ProductPolicy
      */
     public function viewAny(User $user)
     {
-        //
+        return $user->checkPermissionAccess(config('permission.access.list_product'));
     }
 
     /**
@@ -41,7 +41,7 @@ class ProductPolicy
      */
     public function create(User $user)
     {
-        //
+        return $user->checkPermissionAccess(config('permission.access.create_product'));
     }
 
     /**
@@ -51,9 +51,9 @@ class ProductPolicy
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, Product $product)
+    public function update(User $user)
     {
-        //
+        return $user->checkPermissionAccess(config('permission.access.update_product'));
     }
 
     /**
@@ -65,7 +65,7 @@ class ProductPolicy
      */
     public function delete(User $user, Product $product)
     {
-        //
+        return $user->checkPermissionAccess(config('permission.access.delete_product'));
     }
 
     /**

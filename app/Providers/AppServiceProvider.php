@@ -10,6 +10,8 @@ use App\Repositories\ProductRepository;
 use App\Repositories\ProductRepositoryInterface;
 use App\Repositories\RoleRepository;
 use App\Repositories\RoleRepositoryInterface;
+use App\Repositories\SliderRepository;
+use App\Repositories\SliderRepositoryInterface;
 use App\Repositories\UserRepository;
 use App\Repositories\UserRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
@@ -44,6 +46,11 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             PermissionRepositoryInterface::class, 
             PermissionRepository::class
+        );
+
+        $this->app->singleton(
+            SliderRepositoryInterface::class, 
+            SliderRepository::class
         );
     }
 

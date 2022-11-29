@@ -18,17 +18,18 @@ services:
     networks:
       - lara_network
   mysql:
-      image: mysql:8.0.28
-      container_name: "mysql"
-      restart: unless-stopped
-      ports:
-        - "3306:3306"
-      volumes:
-        - ./docker/mysql:/var/lib/mysql
-      environment:
-        MYSQL_ROOT_PASSWORD: 123 
-      networks:
-        - lara_network
+    image: mysql:8.0.28
+    container_name: "mysql"
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker/mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: jewels
+      MYSQL_ROOT_PASSWORD: 123
+    networks:
+      - lara_network
   php:
     build:
       context: .
